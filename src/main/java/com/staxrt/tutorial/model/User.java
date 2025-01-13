@@ -45,7 +45,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
+ // Zeeshan Ali
     @Column(name = "first_name", nullable = false)
     private String firstName;
 
