@@ -54,7 +54,7 @@ public class UserController {
   public List<User> getAllUsers() {
     return userRepository.findAll();
   }
-
+// added by Zeeshan 
   /**
    * Gets users by id.
    *
